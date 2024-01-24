@@ -130,7 +130,7 @@ flex-direction: column;
   /* Add a Flexbox property to make the testimonial-content-wrapper a flex parent container. */
 display: flex;
   /* Add a justify-content property and value so that any extra space if the parent container is between the child flex items.  */
-  justify-content: space-evenly;
+  justify-content: space-around;
   /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
   flex-flow: row wrap;
   /* Add align-items: flex-start; so that the background adjusts to the height of the testimonial. */
@@ -149,7 +149,7 @@ display: flex;
   /* Add a Flexbox property to make the testimonial-content-wrapper a flex parent container. */
 display: flex;
   /* Add a justify-content property and value so that any extra space if the parent container is around the child flex items.  */
-  justify-content: space-evenly;
+  justify-content: space-around;
   /* Add a Flexbox property to align the contents at their center. */
 align-items: center;
 }
@@ -182,7 +182,7 @@ justify-content: center;
     /* Add flex-direction: row; so that the services cards layout changes to a row orientation. */
     flex-direction: row;
     /* Add a justify-content property and value so that any extra space if the parent container is between the child flex items.  */
-justify-content: space-evenly;
+justify-content: space-between;
   }
 
   .wrap-reverse {
@@ -218,7 +218,7 @@ justify-content: space-evenly;
 @media (min-width: 1200px) {
   .header-content-wrapper {
     /* Add a justify-content property and value so that any extra space if the parent container is between the h1 and "Book a Consultation link.  */
-justify-content: space-evenly;
+justify-content: space-between;
   }
 
   h1 {
